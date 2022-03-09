@@ -1,0 +1,247 @@
+/* Universal css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000000d3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.fz-1 {
+  font-size: 14px;
+}
+
+.fz-2 {
+  font-size: 16px;
+}
+
+.fz-3 {
+  font-size: 12px;
+}
+
+.fz-4 {
+  font-size: 20px;
+}
+
+/* page css */
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/image_1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/image_1.jpg");
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+header .banner {
+  position: absolute;
+  top: 52%;
+  left: 33%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.feature {
+  margin-bottom: 200px;
+}
+
+.feature .navbar-nav .nav-item:first-child {
+  color: #B2C251;
+}
+
+.feature p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.feature span {
+  font-size: 30px;
+}
+
+.resume {
+  margin-bottom: 200px;
+}
+
+.resume .edu {
+  width: 540px;
+  height: 220px;
+  padding: 32px 32px;
+  border-radius: 10px;
+  background: #7f797226;
+}
+
+.resume .edu h3 {
+  color: #B2C251;
+}
+
+.resume .edu p {
+  color: gray;
+}
+
+.about {
+  margin-bottom: 200px;
+}
+
+.about img {
+  width: 100%;
+  height: 400px;
+}
+
+.about .column-2 span {
+  font-size: 30px;
+}
+
+.about .column-2 p {
+  color: #7f7972;
+}
+
+.about .button .hire {
+  background: #B2C251;
+  color: #ffffff;
+  padding: 5px 31px;
+  border-radius: 20px;
+}
+
+.about .button .cv {
+  background: #6c757d;
+  color: #ffffff;
+  padding: 5px 31px;
+  border-radius: 20px;
+}
+
+.client {
+  margin-bottom: 200px;
+}
+
+.client .test {
+  width: 200px;
+  height: 220px;
+  padding: 30px 35px;
+  border-width: 0 20px 20px 0;
+  border-radius: 5px;
+  position: relative;
+  background: #7f797226;
+}
+
+.client .test img {
+  width: 50px;
+  position: absolute;
+  margin-top: -38px;
+  margin-left: -130px;
+}
+
+.client .test p {
+  color: #596c79;
+}
+
+.client .test cite a {
+  color: #B2C251;
+  text-decoration: none;
+}
+
+.services {
+  margin-bottom: 150px;
+}
+
+.services .web {
+  width: 100%;
+  height: 470px;
+  padding: 32px 32px;
+  background: #7f797226;
+}
+
+.services .web .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 22px 13px;
+  text-align: center;
+  position: relative;
+  color: #000000;
+  background: #B2C251;
+  margin-left: 96px;
+}
+
+.services a {
+  color: #B2C251;
+  text-decoration: none;
+}
+
+.services .seo {
+  height: 445px;
+  width: 100%;
+  padding: 32px 32px;
+  background: #7f797226;
+}
+
+.services .seo .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 22px 13px;
+  text-align: center;
+  position: relative;
+  color: #000000;
+  background: #B2C251;
+  margin-left: 96px;
+}
+
+.blog {
+  margin-bottom: 200px;
+}
+
+.blog .card {
+  background: #7f797226;
+}
+
+.blog .card .card-body a span:hover {
+  color: #B2C251;
+}
+
+.blog .card:hover {
+  padding: 2px;
+}
+
+.touch {
+  margin-bottom: 180px;
+}
+
+.touch .form-group .form-control {
+  width: 650px;
+  background: #7f797226;
+  border: none;
+}
+
+.touch .message {
+  background: #B2C251;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 20px;
+}
+
+.touch p {
+  color: #2c3e50;
+}
+
+footer {
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+footer .colorlib {
+  color: #B2C251;
+}
+
+footer .icons a {
+  color: #B2C251;
+  width: 25px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background: #7f797226;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@0,200;0,300;1,100;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.fz-10 {
+  font-size: 10pt;
+}
+
+.fz-12 {
+  font-size: 12pt;
+}
+
+.fz-20 {
+  font-size: 20pt;
+}
+
+.fz-25 {
+  font-size: 25pt;
+}
+
+.left-intro {
+  background: #ddd;
+  position: fixed;
+  font-family: "Texturina", serif;
+  left: 0;
+  width: 33.33%;
+  height: 100%;
+}
+
+.left-intro .leftside .myimg {
+  width: 10rem;
+  height: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border-radius: 50%;
+}
+
+.right {
+  font-family: "Roboto", sans-serif;
+  background: rgba(130, 130, 130, 0.5);
+}
+
+.right section {
+  margin: 3rem;
+  font-size: 1.2rem;
+}
+
+.right .intro p {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.right .txttype {
+  -webkit-animation: type 3s steps(10) infinite;
+          animation: type 3s steps(10) infinite;
+  border-right: 1px solid #000;
+  width: 12ch;
+  overflow: hidden;
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 12ch;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 12ch;
+  }
+}
+
+.right .projects .prolinks a {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background: rgba(20, 40, 30, 0.6);
+}
+
+.right .projects .prolinks a:hover {
+  background: rgba(0, 160, 30, 0.6);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .contact {
+  width: 80%;
+  margin-left: 10%;
+  background: rgba(0, 30, 30, 0.4);
+}
+
+.right .contact form {
+  font-size: 12pt;
+  width: 100%;
+  padding: 7%;
+}
+
+.right .contact form input {
+  width: 100%;
+}
+
+.right .contact form textarea {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+}
+
+footer .foot {
+  margin-top: 10px;
+}
+
+footer .foot a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer .foot a .icon {
+  color: rgba(10, 20, 10, 0.6);
+}
+
+footer .foot span {
+  color: #000;
+}
+
+footer .foot p {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .left-intro {
+    height: 30vh;
+    margin-bottom: 0;
+    width: 100%;
+    position: relative;
+  }
+  .left-intro .leftside h6 {
+    font-size: 15pt;
+  }
+  .left-intro .leftside .myimg {
+    width: 7rem;
+    height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-radius: 50%;
+  }
+  .right section {
+    margin: 0rem;
+    font-size: 1.2rem;
+  }
+  .right .quote {
+    margin-top: 10px;
+  }
+  .right .quote p, .right .quote cite {
+    font-size: 10pt;
+  }
+  .right .intro {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .right .intro p {
+    font-size: 10pt;
+  }
+  .right .skills {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 10pt;
+  }
+  .right .txttype {
+    font-size: 25pt;
+    -webkit-animation: type 8s steps(10) infinite;
+            animation: type 8s steps(10) infinite;
+    border-right: 1px solid #000;
+    width: 12ch;
+    overflow: hidden;
+  }
+  @-webkit-keyframes type {
+    0% {
+      width: 0ch;
+    }
+    100% {
+      width: 12ch;
+    }
+  }
+  @keyframes type {
+    0% {
+      width: 0ch;
+    }
+    100% {
+      width: 12ch;
+    }
+  }
+  .projects p {
+    font-size: 12pt;
+    text-align: center;
+  }
+  .projects .prolinks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .prolinks a {
+    font-size: 10pt;
+    margin-bottom: 15px;
+  }
+  .contact {
+    width: 100%;
+    margin: 0rem;
+  }
+  .contact h2 {
+    font-size: 20pt;
+  }
+  .contact form {
+    width: 100%;
+  }
+  .contact form input {
+    width: 100%;
+  }
+  footer .foot {
+    font-size: 9pt;
+  }
+  footer .foot a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  footer .foot a .icon {
+    color: rgba(10, 20, 10, 0.6);
+  }
+  footer .foot span {
+    color: #000;
+  }
+  footer .foot p {
+    color: #000;
+  }
+}
+
+@media (max-width: 1330px) {
+  .projects p {
+    font-size: 12pt;
+    text-align: center;
+  }
+  .projects .prolinks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .prolinks a {
+    font-size: 12pt;
+    margin-bottom: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

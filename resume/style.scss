@@ -1,0 +1,246 @@
+/* Universal css */
+$font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$color1:#7f797226;
+$color2:#B2C251;
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background: #000000d3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.fz-1{
+    font-size: 14px;
+}
+.fz-2{
+    font-size: 16px;
+}
+.fz-3{
+    font-size: 12px;
+}
+.fz-4{
+    font-size: 20px;
+}
+/* page css */
+header{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/image_1.jpg');
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   .banner{
+       position: absolute;
+       top: 52%;
+       left: 33%;
+       transform: translateY(-50%);
+       text-align: center;
+       color: #ffffff;
+
+   } 
+}
+.feature{
+    margin-bottom: 200px;
+    .navbar-nav .nav-item:first-child{
+            color: $color2;
+        }
+    
+    p{
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    span{
+        font-size: 30px;
+    }
+}
+.resume{
+    margin-bottom: 200px;
+
+    
+    
+    .edu{
+        width: 540px;
+        height: 220px;
+        padding:32px 32px;
+        border-radius: 10px;
+        background: $color1;
+        h3{
+            color: $color2;
+        }
+        p{
+            color: gray;
+        }
+    }
+
+}
+.about{
+    margin-bottom: 200px;
+    img{
+        width:100%;
+        height:400px;
+    }
+    .column-2 {
+        span{
+            font-size: 30px;
+        }   
+        p{
+        color: #7f7972;
+    }
+}
+    .button {
+        .hire{
+            background: $color2;
+            color: #ffffff;
+            padding:5px 31px;
+            border-radius: 20px;
+            }
+            .cv{
+                background: #6c757d;
+                color: #ffffff;
+                padding:5px 31px;
+                border-radius: 20px;
+                }
+    }
+}
+.client{
+    margin-bottom: 200px;
+    .test{
+        width: 200px;
+        height: 220px;
+        padding:30px 35px; 
+        // text-align: center;
+        border-width: 0 20px 20px 0; 
+        border-radius: 5px;
+        position: relative;
+        background: $color1;
+
+      img{
+          width: 50px;
+          position: absolute;
+          margin-top: -38px;
+          margin-left: -130px;
+      } 
+      p{
+        color: #596c79;
+      } 
+      cite{
+          a{
+              color: $color2;
+              text-decoration: none;
+            
+          }
+      }
+    }
+
+}
+.services{
+    margin-bottom: 150px;
+    .web{
+        width: 100%;
+        height: 470px;
+        padding:32px 32px;
+        // border-radius: 10px;
+        background: $color1;
+         .icon{
+             width: 100px;
+             height: 100px;
+             border-radius: 50%;
+            padding:22px 13px;
+            text-align: center;
+            position: relative;
+            color: #000000;
+            background: $color2;
+            margin-left: 96px;
+            
+         }
+               
+    }
+    a{
+        color: $color2;
+        text-decoration: none;
+    }
+    .seo{
+        height: 445px;
+
+        width: 100%;
+        
+        padding:32px 32px;
+        // border-radius: 10px;
+        background: $color1;
+         .icon{
+             width: 100px;
+             height: 100px;
+             border-radius: 50%;
+            padding:22px 13px;
+            text-align: center;
+            position: relative;
+            color: #000000;
+            background: $color2;
+            margin-left: 96px;
+            
+         }
+    }
+    
+}
+.blog{
+    margin-bottom: 200px;
+    .card{
+        background: $color1;
+    
+   .card-body{
+       a{
+
+       span:hover{
+       color: $color2;
+   }
+}
+   }
+}
+   .card:hover{
+    padding: 2px;
+}
+    
+}
+.touch{
+    margin-bottom: 180px;
+    .form-group{
+        
+        .form-control{
+            width: 650px;
+            background: $color1;
+            border: none;
+        
+        }
+    }
+
+    .message{
+          
+        background: $color2;
+        color: #ffffff;
+        padding:12px 30px;
+        border-radius: 20px;           
+    }
+    p{
+        color: #2c3e50;
+        // text-transform: uppercase;
+    }
+}
+footer{
+    margin-bottom: 140px;
+    text-align: center;
+    .colorlib{
+        color: $color2;
+    }
+
+    .icons{
+        a{
+            color: $color2;
+            width: 25px;
+            padding: 20px 20px;
+            border-radius: 50%;
+            background: $color1;
+            text-decoration: none;
+        }
+    }
+}

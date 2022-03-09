@@ -1,0 +1,67 @@
+html,body{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background-image:linear-gradient(to bottom,rgba(141, 44, 104, 0.9),rgba(35, 35, 163, 0.9)) ;
+}
+.container{
+    width: 330px;
+    height: 570px;
+    padding: 15px;
+    background-color:white;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+     
+}
+.wrap{
+    padding-top: 16px;
+    text-align: center;
+   color: gray;
+    
+}
+#inpbtn{
+    padding: 15px;
+    border: none;
+    background-color: rgba(0,0,0,0.05);
+    width: 75%;
+    position:  relative;
+    text-align: center;
+}
+#button{
+    padding: 15px;
+    border: none;
+    background-color: rgba(172, 39, 150, 0.9);
+    width:85%;
+    color: #ffffff;
+}
+#btn{
+    padding:8px;
+    border:  none;
+    box-shadow: 1px 1px 1px gray;
+    background-color: white;
+    width: 41%;
+    color: gray;
+}
+.wrap span{
+font-size: 10pt;
+color:gray;
+}
+.wrap span a{
+
+font-size: 10pt;
+color: gray;
+}
+.icon{
+    padding: 10px;
+    min-width:30px;
+    position:absolute;
+    padding-top: 13px;
+}
+/* Responsive */
+@media (min-width:340px){
+    
+}

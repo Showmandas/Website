@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.fz-16 {
+  font-size: 16pt;
+}
+
+.fz-12 {
+  font-size: 12pt;
+}
+
+.fz-14 {
+  font-size: 14pt;
+}
+
+.fz-55 {
+  font-size: 55pt;
+}
+
+.fz-20 {
+  font-size: 20pt;
+}
+
+.fz-10 {
+  font-size: 10pt;
+}
+
+.fz-11 {
+  font-size: 11pt;
+}
+
+.txtcol-1 {
+  color: #dedede;
+}
+
+header {
+  width: 100%;
+}
+
+header .navigation .phn {
+  background: rgba(0, 0, 0, 0.27);
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.banner {
+  width: 100%;
+  height: 920px;
+  margin-bottom: 200px;
+  background: url("images/anesthesia-4677401__340.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner .helcare {
+  padding-top: 34%;
+}
+
+.banner-rest {
+  margin-top: -10%;
+}
+
+.health .helimg img {
+  position: relative;
+}
+
+.health .helimg .caption {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  text-align: center;
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+  font-size: 16pt;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background: rgba(22, 22, 88, 0.8);
+}
+/*# sourceMappingURL=style.css.map */

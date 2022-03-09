@@ -1,0 +1,157 @@
+// Responsive
+@media (min-width:320px){
+	
+    .banner{
+						
+        .helcare{
+			// padding-top: 25%;
+            .helhead{
+                h1{
+                    font-size: 40pt;
+                }
+                p{
+                    font-size: 14pt;
+                }
+                a{
+                    font-size: 8pt;
+                }
+			}
+			.helrest{
+				.fz-11{
+					font-size: 9pt;
+					margin-left: 0;
+				}
+			}
+        }
+
+		}
+   .banner-rest{
+	   margin-top: -5%;
+	   overflow: hidden;
+   }
+		
+.shedule{
+	.others{
+		.treat{
+			text-align: center;
+		}
+	}
+}
+		.medicine{
+			.allergy-part{
+				text-align: center;
+		// 		.allergy,.routine{
+		// text-align: center;
+		// 	}
+            
+			}
+			
+		}
+		.surgery{
+			.plastic{
+				text-align: center;
+				h3{
+					font-size: 15pt;
+				}
+				p{
+					font-size: 10pt;
+				}
+				a{
+					font-size: 10pt;
+				}
+			}
+		}
+	
+	  .health{
+		.hel{
+			.find{
+				font-size: 10pt;
+				// margin-left: -20%;
+			}
+			.helimg{
+				.caption{
+					top:40%;
+					left: 35%;
+					transform: translateY(50%);
+				}
+			}
+		}
+
+		}
+		.map{
+			.location{
+				text-align: center;
+			}
+		}
+		footer{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			.copy{
+				font-size: 10pt;
+			}
+			.medlife{
+				p{
+					font-size: 14pt;
+				}
+			}
+			.pages{
+				.pagelist{
+					ul{
+						li{
+							a{
+								// padding: 20%;
+								font-size: 14pt;
+							}
+						}
+					}
+				}
+			}
+			.news{
+				p{
+					font-size: 14pt;
+				}
+			}
+			.social{
+				margin-right:25%;
+				// margin-left: 0;
+				text-align: center;
+				font-size: 8pt;
+			}
+		}
+
+}
+@media(min-width:768px){
+	
+	.banner-rest{
+		margin-top: -5%;
+		overflow: hidden;
+	}
+	.health{
+		.hel{
+			.find{
+				font-size: 10pt;
+				// margin-left: -20%;
+			}
+			.helimg{
+				.caption{
+					top:20%;
+					left: 22%;
+					font-size: 14pt;
+					transform: translateY(50%);
+				}
+			}
+		}
+
+		}
+	footer{
+	   width: 100%;
+	   height: 100%;
+	   .social{
+		margin-right:30%;
+		// margin-left: 0;
+		text-align: center;
+		font-size: 8pt;
+	}
+	}
+}

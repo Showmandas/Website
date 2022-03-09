@@ -1,0 +1,169 @@
+@media(max-width:576px){
+ .services{
+     .offer{
+         img{
+             width: 100%;
+         }
+     }
+ }
+ .banner{
+   .laundry{
+     text-align: center;
+     h4{
+      padding-top: 30%;
+       font-size: 35pt;
+     }
+     p{
+       font-size: 15pt;
+     }
+     
+   }
+ }
+ .Aboutbanner{
+   .laundry{
+     text-align: center;
+     h4{
+      padding-top: 20%;
+       font-size: 35pt;
+     }
+     p{
+       font-size: 15pt;
+     }
+     
+   }
+ }
+ .map{
+    height: 135px !important;
+ }
+ .work{
+
+   h2{
+     font-size: 20pt;
+   }
+ 
+ }
+ .services{
+   h2{
+     font-size: 20pt;
+   }
+   .cloth{
+     P{
+       font-size: 12pt;
+     }
+   }
+   .offer-2{
+     img{
+       width: 100% !important;
+     }
+   }
+ }
+ .testimonial{
+   .test{
+     p{
+       font-size: 12pt;
+     }
+   }
+ }
+ .achievement{
+   h1{
+     font-size: 20pt;
+   }
+ }
+ .company{
+   .about{
+     h1{
+       font-size: 20pt;
+     }
+     p{
+       font-size: 12pt;
+     }
+   }
+ }
+ footer{
+   text-align: center;
+   .foot-1{
+     
+     .social-icons{
+       .icon{
+         margin-left: 0%;
+       }
+     }
+   }
+   p{
+     font-size: 10pt;
+   }
+ }
+}
+@media(max-width:800px){
+  .services{
+    h2{
+      font-size: 20pt;
+    }
+    .cloth{
+      P{
+        font-size: 12pt;
+      }
+    }
+    .offer{
+      img{
+        width: 100% !important;
+      }
+    }
+    .offer-2{
+      img{
+        width: 100% !important;
+      }
+    }
+  } 
+  .company{
+    img{
+      width: 100% !important;
+    }
+  }
+  .map{
+    height: 300px;
+  }
+  footer{
+    text-align: center;
+    .social-icons{
+      margin-left: 45%;
+    }
+  }
+}
+@media(max-width:991px){
+  .services{
+    h2{
+      font-size: 20pt;
+    }
+    .cloth{
+      P{
+        font-size: 12pt;
+      }
+    }
+    .offer{
+      img{
+        width: 100% !important;
+      }
+    }
+    .offer-2{
+      img{
+        width: 100% !important;
+      }
+    }
+  } 
+  .company{
+    img{
+      width: 100% !important;
+    }
+  }
+  .map{
+    height: 300px;
+  }
+ 
+  footer{
+    text-align: center;
+    .social-icons{
+      margin-left: 45%;
+    }
+  }
+}
