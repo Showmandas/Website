@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header-part">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="campus logo"></a>
+            <div class="navlinks" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Course">course</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#Contact">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <!--/end nav bar-->
+        <!--Start text-->
+        <div class="txt-box">
+            <h1>World's biggest university</h1><br><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.eriam iusto adipisci amet sapiente. Cumque. Lorem ipsum dolor sit amet.</p><br>
+            <a href="#" class="txt-btn">Visit us</a>
+        </div>
+    </section>
+
+
+    <!-- course section -->
+    <section class="course" id="Course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, dolores.</p>
+   
+        <div class="row">   
+          <div class="course-col">
+              <h3>Intermediate</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In doloremque asperiores cupiditate eius corrupti libero omnis vitae perspiciatis illo iusto.</p>
+              <a href="#" class="detail-btn">Details..</a>
+            </div><!--/course-col-->
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In doloremque asperiores cupiditate eius corrupti libero omnis vitae perspiciatis illo iusto.</p>
+            <a href="#" class="detail-btn">Details..</a>
+        </div><!--/course-col-->
+        <div class="course-col">
+            <h3>Post graduation</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In doloremque asperiores cupiditate eius corrupti libero omnis vitae perspiciatis illo iusto.</p>
+            <a href="#" class="detail-btn">Details..</a>
+        </div><!--/course-col-->
+        
+        </div><!--/row-->
+    </section>
+    <!--/End course section-->
+    <!--start campus section-->
+    <section class="campus">
+        <h1>Our campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="campus pic">
+                <div class="layer">
+                    <h3>London</h3>
+                </div><!--/layer-->
+            </div><!--/campus-col-->
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="campus pic">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div><!--/layer-->
+            </div><!--/campus-col-->
+            <div class="campus-col">
+                <img src="images/washington.png" alt="campus pic">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div><!--/layer-->
+            </div><!--/campus-col-->
+        </div><!--/row-->
+    </section>
+    <!--/end campus section-->
+<!--start campus section-->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="library pic">
+                <h3>World class library</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div><!--/facilities-col-->
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="basketball pic">
+                <h3>Largest playground</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div><!--/facilities-col-->
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="campus pic">
+                <h3>Tasty and healthy food</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div><!--/facilities-col-->
+    </div><!--/row-->
+</section>
+<!--/end facilities section-->
+
+<!--/start contact section-->
+<section class="contact" id="Contact">
+    <h1>Enroll for our online courses <br> anywhere from the world</h1>
+    <a href="#" class="txt-btn">Contact us</a>
+</section>
+<!--/end contact section-->
+
+<!--/start footer section-->
+<section class="footer" id="About">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium consequuntur accusamus libero<br> provident, non voluptate. Omnis nihil unde obcaecati deleniti.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div><!--/icons-->
+    <p>Made with <i class="fa fa-heart-o"></i> by showman </p>
+</section>
+<!--/end footer section-->
+
+
+
+
+
+    <!--Js for toggle menu-->
+    <script>
+        var navlinks=document.getElementById('nav-links');
+        const showmenu=()=>{
+            navlinks.style.right="0";
+        }
+        const hidemenu=()=>{
+            navlinks.style.right="-240px"
+        }
+    </script>
+</body>
+</html>
