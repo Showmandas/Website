@@ -45,7 +45,7 @@ nav img:hover{
     text-decoration: none;
     color: #fff;
     font-size: 0.8rem;
-    font-weight: blod;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -100,6 +100,7 @@ nav img:hover{
     cursor: pointer;
     color: #fff;
 }
+
 .txt-btn:hover{
     background-color: #f44336;
     transition: 1s;
@@ -150,7 +151,6 @@ nav .fa{
 h3{
     text-align: center;
     margin:10px 0;
-
 }
 
 .course-col:hover{

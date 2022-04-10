@@ -15,7 +15,7 @@
             <div class="navlinks" id="nav-links">
                 <i class="fa fa-times" onclick="hidemenu()"></i>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Course">course</a></li>
                     <li><a href="#">blog</a></li>
@@ -27,7 +27,7 @@
         <!--/end nav bar-->
         <!--Start text-->
         <div class="txt-box">
-            <h1>World's biggest university</h1><br><br>
+            <h1>World's biggest <span class="auto-typed"></span> </h1><br><br>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.eriam iusto adipisci amet sapiente. Cumque. Lorem ipsum dolor sit amet.</p><br>
             <a href="#" class="txt-btn">Visit us</a>
         </div>
@@ -132,8 +132,16 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-
+     <script>
+         var typejs= new Typed(".auto-typed",{
+             strings:["University","Campus"],
+             typeSpeed:150,
+             backSpeed:150,
+             loop:true
+         })
+     </script>
     <!--Js for toggle menu-->
     <script>
         var navlinks=document.getElementById('nav-links');
