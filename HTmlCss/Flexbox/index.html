@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox design</title>
+   <style>
+        .container{
+        width:60vw;
+        height:100vh;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(205, 168, 113);
+    }
+    .logo img{
+        width: 10vw;
+        height: 18vh;
+        border-radius: 50%;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    ul li{
+        list-style: none;
+        padding: 10px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .content{
+        
+        display: flex;
+        background-color: blanchedalmond;
+    }
+    aside{
+        flex: 1 1 150px;
+        background-color:rgb(192, 167, 129);
+        text-align: left;
+    }
+    article{
+        flex: 4 4 150px;
+        /* background-color:blue; */
+        text-align: center;
+        align-self: center;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(205, 168, 113);
+    }
+   </style>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="logo">
+                <img src="https://picsum.photos/200/300" alt="logo image">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Flexbox</a></li>
+                    <li><a href="#">Flex-direction</a></li>
+                    <li><a href="#">justify-content</a></li>
+                    <li><a href="#">align-items</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <aside>
+                <h4>Some flex property:</h4>
+                <ul>
+                    <li>flex-shrink</li>
+                    <li>flex-grow</li>
+                    <li>flex-wrap</li>
+                    <li>flex-basis</li>
+                    <li>align-self</li>
+                </ul>
+            </aside>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aspernatur omnis autem ipsam incidunt reiciendis nesciunt ullam saepe totam deleniti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit amet dolorem, esse expedita molestias omnis corporis quasi ipsum obcaecati.</p>
+            </article>
+        </section>
+        <footer>
+            copyright &copy; Flexbox properties
+        </footer>
+    </section>
+</body>
+</html>

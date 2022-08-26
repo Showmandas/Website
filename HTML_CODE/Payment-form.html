@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="paymentForm">
+        <form action="">
+            <h1>Payment Form</h1>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <table>
+                    <tr>
+                        <td>Name:* <input type="text" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:*
+                        Male: <input type="radio" name="gender" id="gender" required>
+                        Female: <input type="radio" name="gender" id="gender" required>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Address: <textarea name="address" id="address" cols="100" rows="8" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Email:* <input type="email" name="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Pincode:* <input type="number" name="pincode" id="pincode" required></td>
+                    </tr>
+       
+                </table>
+                <br>
+                <hr>
+                <hr>
+                <br>
+                <fieldset>
+                    <legend>Payment Info</legend>
+                    <table>
+                        <tr>
+                            <td>Payment Type:*
+                                <select name="payment_type" id="payment_type" required>
+                                    <option value="">Select Payment Type</option>
+                                    <option value="bkash">Bkash</option>
+                                    <option value="visa">Visa</option>
+                                    <option value="rocket">Rocket</option>
+                                    <option value="nagad">Nagad</option>
+                                    <option value="mscard">Master Card</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Card/Bkash.Rocket/Nagad number: *<input type="number" name="card_number" id="card_number" required></td>
+                        </tr>
+                        <tr>
+                            <td>Expiration Date: * <input type="date" name="exp_date" id="exp_date" required> </td>
+                        </tr>
+                        <tr>
+                            <td>Enter Pincode of your payment Option(Bkash/Nagad/Rocket/etc):* <input type="password" name="pin" id="pin" required></td>
+                        </tr>
+                        
+                    
+                    </table>
+                </fieldset>
+                <br>
+                <tr>
+                    <td> <input type="submit"  id="submit" value="Pay now"></td>
+                </tr>
+            </fieldset>
+     
+            
+        </form>
+    </div><!--/paymentForm-->
+</body>
+</html>
