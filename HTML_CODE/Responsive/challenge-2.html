@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive challenge</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .flex{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            padding: 1rem 0 0 0;
+        }
+        .flexbox{
+            width: 25vw;
+            height: 25vh;
+            background-color: #f1df23;
+            text-align: center;
+            border: 1px solid #000;
+        }
+        
+
+        /* Responsive */
+
+
+@media all and (min-width:700px) and (max-width:1000px){
+    .flex{
+            width: 100%;
+            display: flex;
+            /* flex-shrink: calc(2); */
+            align-items: center;
+            padding: 1rem 0 0 0;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .flexbox{
+            flex:50%;
+        }
+        
+       
+}
+
+@media all and(min-width:520px) and (max-width:699px){
+    .flex{
+            flex-direction: column;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h2>Responsive Challenge</h2>
+    <div class="flex">
+        <div class="flexbox">
+            <h2>Arya</h2>
+            <p>Blockbuster</p>
+        </div>
+        <div class="flexbox">
+            <h2>Julayi</h2>
+            <p>Super hit</p>
+        </div>
+        <div class="flexbox">
+            <h2>Lucky-The Racer</h2>
+            <p>Blockbuster</p>
+        </div>
+        <div class="flexbox">
+            <h2>Sarrainodu</h2>
+            <p>Blockbuster</p>
+        </div>
+    </div>
+</body>
+</html>

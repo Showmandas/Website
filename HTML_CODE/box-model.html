@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* body{
+            display: flex;
+            flex-direction: column;
+        } */
+        .wrap{
+            /* width: 100vw; */
+            /* height: 100vh; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            overflow: hidden;
+        }
+        nav ul li{
+            list-style: none;
+            padding: 1rem 3rem;
+            color: antiquewhite;
+        }
+        .box{
+            width: 65vw;
+            height: 50vh;
+            border: 8px solid black;
+            padding: 10px;
+            overflow: scroll;
+        }
+        
+        .box-1{
+            width: 25vw;
+            height: 50vh;
+            border: 8px solid black;
+            padding: 10px;
+            overflow: scroll;
+        }
+        footer{
+            margin-top: 7.5rem;
+            width: 100%;
+            background-color: black;
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+            color: antiquewhite;
+        }
+        .footer-content ul li{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+           
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="wrap">
+        
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nihil explicabo cumque eum repellendus tempora earum sit perspiciatis esse reprehenderit impedit necessitatibus rerum nisi accusamus. Dolorum odio officiis blanditiis? Dolorum, blanditiis perspiciatis minima ut magnam repellat cumque obcaecati accusamus eum aliquid consequuntur, libero odio facilis quibusdam corporis quis doloribus rem?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit reprehenderit quidem officia accusamus, repellendus praesentium eligendi assumenda quaerat! Nihil suscipit sunt veniam. Quaerat minima, totam sequi labore nam iste expedita obcaecati voluptas perferendis? Tenetur quas adipisci officia, minima, excepturi totam hic consequuntur quam nihil eligendi, veniam illum velit dicta est!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta est obcaecati quaerat ex, maxime blanditiis nulla quasi incidunt deserunt officiis, tempora aspernatur suscipit possimus tenetur atque? Corporis sit tenetur, esse quod quaerat nisi inventore tempora expedita aut nostrum illum libero, doloribus ipsa autem veritatis. Temporibus omnis eos distinctio autem veniam. Voluptatem totam molestias repellat nobis necessitatibus deserunt eos facere! Accusamus optio libero dolor facilis nisi deserunt nam assumenda sit, soluta dolorum similique quaerat in, fuga reiciendis aut minus iure! Exercitationem unde eum, consectetur doloremque ducimus ea culpa recusandae laudantium, incidunt eveniet fugiat autem tempora, rem corporis similique facilis odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem fugit nam ipsum pariatur suscipit placeat est facilis eum id?
+             </p> 
+        </div><!--/box-->
+        
+        <div class="box-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nihil explicabo cumque eum repellendus tempora earum sit perspiciatis esse reprehenderit impedit necessitatibus rerum nisi accusamus. Dolorum odio officiis blanditiis? Dolorum, blanditiis perspiciatis minima ut magnam repellat cumque obcaecati accusamus eum aliquid consequuntur, libero odio facilis quibusdam corporis quis doloribus rem?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit reprehenderit quidem officia accusamus, repellendus praesentium eligendi assumenda quaerat! Nihil suscipit sunt veniam. Quaerat minima, totam sequi labore nam iste expedita obcaecati voluptas perferendis? Tenetur quas adipisci officia, minima, excepturi totam hic consequuntur quam nihil eligendi, veniam illum velit dicta est!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta est obcaecati quaerat ex, maxime blanditiis nulla quasi incidunt deserunt officiis, tempora aspernatur suscipit possimus tenetur atque? Corporis sit tenetur, esse quod quaerat nisi inventore tempora expedita aut nostrum illum libero, doloribus ipsa autem veritatis. Temporibus omnis eos distinctio autem veniam. Voluptatem totam molestias repellat nobis necessitatibus deserunt eos facere! Accusamus optio libero dolor facilis nisi deserunt nam assumenda sit, soluta dolorum similique quaerat in, fuga reiciendis aut minus iure! Exercitationem unde eum, consectetur doloremque ducimus ea culpa recusandae laudantium, incidunt eveniet fugiat autem tempora, rem corporis similique facilis odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In rem fugit nam ipsum pariatur suscipit placeat est facilis eum id?
+             </p> 
+        </div><!--/box-1-->
+    </div><!--/wrap-->
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li>Media</li>
+                <li>Terms & Condition</li>
+                <li>Privacy Policy</li>
+            </ul>
+            <p>@copyright 2k22,All rights reserved</p>
+
+        </div><!--/footer-content-->
+    </footer>
+
+    
+</body>
+</html>
